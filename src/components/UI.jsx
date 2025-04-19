@@ -33,7 +33,7 @@ for (let i = 1; i < pictures.length - 1; i += 2) {
     back: pictures[(i + 1) % pictures.length],
   });
 }
-
+// Page 
 pages.push({
   front: pictures[pictures.length - 1],
   back: "book-back",
